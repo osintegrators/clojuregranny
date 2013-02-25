@@ -1,0 +1,29 @@
+(require 'clojuregranny.handler)
+(clojuregranny.handler/-main)
+(clojuregranny.handler)
+(require 'clojuregranny.handler)
+(clojuregranny.handler)
+(clojuregranny.handler/-main)
+hello "swat"
+(use '[clojure.data.json :only (read-json json-str)])
+(json-str {:color "red" :name "apple"}) 
+(use 'clojuregranny.handler)
+get-all-users
+add-user
+blah
+get-user
+get-all-users
+delete
+delete/2
+add-user
+update-user
+delete
+(use 'ring.adapter.jetty)
+(use 'clojuregranny.core)
+(run-jetty handler {:port 3000})
+use 'clojuregranny.handler;
+use 'clojuregranny.handler
+use 'clojuregranny.handler;
+(db-read "select * from granny where id=?" 10)
+use 'clojuregranny.handler;
+(db-read "select * from granny where id=?" 10)
